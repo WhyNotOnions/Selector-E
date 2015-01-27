@@ -9,10 +9,9 @@ li .cardimg {
 	width:80px; 
 	background-color: white;
 	float:left; 
-	margin-bottom:1em; 
-	margin-right:1em;
 	display:none;
 }
+	
 
 .cardimg.White{
 	background-color: #FAFAFA;
@@ -37,14 +36,21 @@ li .cardimg {
 li.cardsingle{
 	/*clear:both; */
 	height:11em; 
+	box-sizing: border-box;
+	padding: 0.25em 0.5em 0 0.5em;
+	margin-bottom: 0.5em; 
+	border: 5px solid #BBBBBB;
+	/*margin-right:1em;*/
 }
 
 li.White{
 	background-color: #FEFEFE;
+	/*border-color: #BBBBBB;*/
 }
 
 li.Green{
 	background-color: #C1FFAB;
+	/*border-color: #BBBBBB;*/
 }
 
 li.Blue{
@@ -56,5 +62,5 @@ li.Red{
 }
 
 li.Black{
-	background-color: #BBBBBB;
+	background-color: #AAAAAA;
 }
