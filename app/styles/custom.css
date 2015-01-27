@@ -1,0 +1,14 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.cardimg {
+	height:100px; 
+	width:80px; 
+	background-color: white;
+	float:left; 
+	margin-bottom:1em; 
+	margin-right:1em;
+}
