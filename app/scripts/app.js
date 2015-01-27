@@ -26,6 +26,10 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
+      .when('/grid', {
+        templateUrl: 'views/grid.html',
+        controller: 'CardListCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

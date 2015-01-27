@@ -32,13 +32,9 @@
 	
       <ul class="cards">
       	
-        <li class="cardsingle {{card.color}}" ng-repeat="card in cards | filter:query | filter:set | filter:{type: type} | filter:{color: color}">
-        	
-		  <p><!-- <div class="cardimg {{card.color}}"></div> -->{{card.set}} -
-		  {{card.number}} |
-          <strong>{{card.name}}</strong><br />
-		  {{card.stat}}<br />
-          {{card.cardText}}</p>
+        <li class="cardsinglegrid {{card.color}}" ng-repeat="card in cards | filter:query | filter:set | filter:{type: type} | filter:{color: color}">
+        	<p>{{card.set}} - {{card.number}}</p>
+		  <!-- <div class="cardimg {{card.color}}"></div> -->
         </li>
       </ul>
 
