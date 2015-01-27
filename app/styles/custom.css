@@ -4,11 +4,57 @@ ul {
 	padding: 0;
 }
 
-.cardimg {
+li .cardimg {
 	height:100px; 
 	width:80px; 
 	background-color: white;
 	float:left; 
 	margin-bottom:1em; 
 	margin-right:1em;
+	/*display:none;*/
+}
+
+.cardimg.White{
+	background-color: #FAFAFA;
+}
+
+.cardimg.Green{
+	background-color: #C1FFAB;
+}
+
+.cardimg.Blue{
+	background-color: #ABE2FF;
+}
+
+.cardimg.Red{
+	background-color: #FC6868;
+}
+
+.cardimg.Black{
+	background-color: #BBBBBB;
+}
+
+li.cardsingle{
+	/*clear:both; */
+	height:11em; 
+}
+
+li.White{
+	background-color: #FEFEFE;
+}
+
+li.Green{
+	background-color: #C1FFAB;
+}
+
+li.Blue{
+	background-color: #ABE2FF;
+}
+
+li.Red{
+	background-color: #FC6868;
+}
+
+li.Black{
+	background-color: #BBBBBB;
 }
