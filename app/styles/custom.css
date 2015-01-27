@@ -11,7 +11,7 @@ li .cardimg {
 	float:left; 
 	margin-bottom:1em; 
 	margin-right:1em;
-	/*display:none;*/
+	display:none;
 }
 
 .cardimg.White{
